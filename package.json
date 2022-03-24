@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Primeiro projeto com Cypress",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "cypress": "^9.5.2"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "npx cypress open"
   },
