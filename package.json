@@ -6,7 +6,9 @@
   "dependencies": {
     "cypress": "^9.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mochawesome": "^7.1.2"
+  },
   "scripts": {
     "test": "npx cypress open"
   },
