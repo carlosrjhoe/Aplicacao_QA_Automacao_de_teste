@@ -1,0 +1,23 @@
+{
+  "name": "aplicacao_qa_automacao_de_teste",
+  "version": "1.0.0",
+  "description": "Primeiro projeto com Cypress",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^9.5.2"
+  },
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosrjhoe/Aplicacao_QA_Automacao_de_teste.git"
+  },
+  "author": "Carlos Roberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosrjhoe/Aplicacao_QA_Automacao_de_teste/issues"
+  },
+  "homepage": "https://github.com/carlosrjhoe/Aplicacao_QA_Automacao_de_teste#readme"
+}
