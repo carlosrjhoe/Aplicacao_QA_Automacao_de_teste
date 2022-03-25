@@ -31,7 +31,7 @@ describe('alura busca casos', () => {
 
     it.only('fazer login de usuario valido', () => {
         cy.login('flavio', '123')
-        cy.contains('a:cy-contains', '(Logout)').should('be.visible');
+        cy.contains('a', '(Logout)').should('be.visible');
     })
 
     it.only('fazer login de usuario invalido', () => {
