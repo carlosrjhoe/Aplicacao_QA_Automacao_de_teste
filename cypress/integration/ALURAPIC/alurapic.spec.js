@@ -1,3 +1,4 @@
+
 describe('alura busca casos', () => {
     beforeEach(() => {
         cy.visit('https://alura-fotos.herokuapp.com');
@@ -26,5 +27,17 @@ describe('alura busca casos', () => {
         cy.get('input[formcontrolname="password"]').type('123');
         cy.contains('button', 'Register').click();
         cy.contains('ap-vmessage', 'Mininum length is 8').should('be.visible');
+    })
+
+    it.only('fazer login de usuario valido', () => {
+        cy.login('flavio', '123')
+        cy.contains('a:cy-contains', '(Logout)').should('be.visible');
+    })
+
+    it.only('fazer login de usuario invalido', () => {
+        cy.login('jacqueline', '1234')
+        cy.on ('window:alert', (str) => {
+            expect(str).to.equal('Invalid user name or password');
+        })
     })
 })
