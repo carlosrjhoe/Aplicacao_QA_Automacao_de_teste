@@ -19,3 +19,13 @@ Nessa aula, Eu aprendi:
 - Utilizar com mais detalhes as ferramentas de desenvolvedor (DevTools) do navegador para explorar e identificar os elementos com que o - - Cypress irá interagir;
 Utilizar o comando cy.contains() para procurar por um texto dentro de um seletor, facilitando a busca por um elemento;
 - Criar novos casos de teste, incluindo a função it(). Não há limites para a quantidade de testes incluídos.
+
+# Aula 03
+
+Nessa aula, Eu aprendi:
+
+- Executar os testes em modo headless, sem abrir a interface gráfica do Cypress;
+- Verificar os relatórios e vídeos gerados ao executar testes em modo headless;
+- Usar o pacote Mochawesome para personalizar a geração do relatório e ter a possibilidade de gerá-los como arquivos html, visualizando-os no browser;
+- Utilizar o Dashboard para integrar os resultados dos testes e ter uma visão mais analítica e completa dos dados;
+- Criar novos comandos personalizados, de acordo com a necessidade e referenciá-los como se fossem comando nativos do Cypress, como por exemplo: cy.login(), cy.registrar() ou da forma que considerar melhor.
